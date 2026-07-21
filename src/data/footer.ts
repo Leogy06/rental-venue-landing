@@ -7,31 +7,43 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
+    subheading: "Creating unforgettable events with elegance, warmth, and attention to detail.",
     quickLinks: [
         {
             text: "Services",
             url: "#services"
         },
         {
-            text: "Pricing",
-            url: "#pricing"
+            text: "Venues",
+            url: "#venues"
+        },
+        {
+            text: "Gallery",
+            url: "#gallery"
+        },
+        {
+            text: "About",
+            url: "#about"
         },
         {
             text: "Testimonials",
             url: "#testimonials"
+        },
+        {
+            text: "FAQ",
+            url: "#faq"
+        },
+        {
+            text: "Contact",
+            url: "#contact"
         }
     ],
-    email: 'address@yoursite.com',
-    telephone: '+1 (123) 456-7890',
+    email: 'info@grandhallevents.com',
+    telephone: '(555) 123-4567',
     socials: {
-        // github: 'https://github.com',
-        // x: 'https://twitter.com/x',
-        twitter: 'https://twitter.com/Twitter',
         facebook: 'https://facebook.com',
-        // youtube: 'https://youtube.com',
-        linkedin: 'https://www.linkedin.com',
-        // threads: 'https://www.threads.net',
         instagram: 'https://www.instagram.com',
+        linkedin: 'https://www.linkedin.com',
+        twitter: 'https://twitter.com',
     }
 }
