@@ -4,7 +4,7 @@ export const venues: IVenue[] = [
     {
         name: "The Grand Ballroom",
         capacity: 300,
-        imageSrc: "/images/venue-ballroom.webp",
+        imageSrc: "/images/venue-ballroom.svg",
         features: [
             "Crystal chandeliers and marble floors",
             "Built-in stage for entertainment",
@@ -15,7 +15,7 @@ export const venues: IVenue[] = [
     {
         name: "Garden Terrace",
         capacity: 150,
-        imageSrc: "/images/venue-terrace.webp",
+        imageSrc: "/images/venue-terrace.svg",
         features: [
             "Covered outdoor pavilion",
             "String lights and garden views",
@@ -26,7 +26,7 @@ export const venues: IVenue[] = [
     {
         name: "The Intimate Lounge",
         capacity: 50,
-        imageSrc: "/images/venue-lounge.webp",
+        imageSrc: "/images/venue-lounge.svg",
         features: [
             "Cozy fireplace ambiance",
             "Ideal for rehearsal dinners",

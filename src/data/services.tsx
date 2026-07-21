@@ -23,7 +23,7 @@ export const services: IBenefit[] = [
                 icon: <FiHeart size={26} />
             }
         ],
-        imageSrc: "/images/service-venue.webp"
+        imageSrc: "/images/service-venue.svg"
     },
     {
         title: "Catering",
@@ -45,7 +45,7 @@ export const services: IBenefit[] = [
                 icon: <FiStar size={26} />
             }
         ],
-        imageSrc: "/images/service-catering.webp"
+        imageSrc: "/images/service-catering.svg"
     },
     {
         title: "Event Planning & Decor",
@@ -67,7 +67,7 @@ export const services: IBenefit[] = [
                 icon: <FiMic size={26} />
             }
         ],
-        imageSrc: "/images/service-planning.webp"
+        imageSrc: "/images/service-planning.svg"
     },
     {
         title: "Bar Service",
@@ -89,7 +89,7 @@ export const services: IBenefit[] = [
                 icon: <FiMusic size={26} />
             }
         ],
-        imageSrc: "/images/service-bar.webp"
+        imageSrc: "/images/service-bar.svg"
     },
     {
         title: "Lighting & Sound",
@@ -111,7 +111,7 @@ export const services: IBenefit[] = [
                 icon: <FiMusic size={26} />
             }
         ],
-        imageSrc: "/images/service-lighting.webp"
+        imageSrc: "/images/service-lighting.svg"
     },
     {
         title: "Floral Arrangements",
@@ -133,6 +133,6 @@ export const services: IBenefit[] = [
                 icon: <FiHome size={26} />
             }
         ],
-        imageSrc: "/images/service-floral.webp"
+        imageSrc: "/images/service-floral.svg"
     },
 ]
