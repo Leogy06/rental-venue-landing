@@ -51,3 +51,15 @@ export interface ISocials {
     x?: string;
     [key: string]: string | undefined;
 }
+
+export interface IVenue {
+    name: string;
+    capacity: number;
+    imageSrc: string;
+    features: string[];
+}
+
+export interface IGalleryImage {
+    src: string;
+    alt: string;
+}

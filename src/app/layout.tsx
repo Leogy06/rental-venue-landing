@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { GoogleAnalytics } from '@next/third-parties/google';
-import { Source_Sans_3, Manrope } from "next/font/google";
+import { Playfair_Display, Source_Sans_3 } from "next/font/google";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -8,15 +8,15 @@ import { siteDetails } from '@/data/siteDetails';
 
 import "./globals.css";
 
-const manrope = Manrope({ subsets: ['latin'] });
+const playfair = Playfair_Display({ subsets: ['latin'] });
 const sourceSans = Source_Sans_3({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: siteDetails.metadata.title,
-  description: siteDetails.metadata.description,
+  title: 'Grand Hall Events — Where Your Dream Event Comes to Life',
+  description: 'Elegant venue and full-service catering for weddings, birthdays, corporate events, and celebrations. Create unforgettable memories at Grand Hall Events.',
   openGraph: {
-    title: siteDetails.metadata.title,
-    description: siteDetails.metadata.description,
+    title: 'Grand Hall Events — Where Your Dream Event Comes to Life',
+    description: 'Elegant venue and full-service catering for weddings, birthdays, corporate events, and celebrations.',
     url: siteDetails.siteUrl,
     type: 'website',
     images: [
@@ -24,14 +24,14 @@ export const metadata: Metadata = {
         url: '/images/og-image.jpg',
         width: 1200,
         height: 675,
-        alt: siteDetails.siteName,
+        alt: 'Grand Hall Events',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: siteDetails.metadata.title,
-    description: siteDetails.metadata.description,
+    title: 'Grand Hall Events — Where Your Dream Event Comes to Life',
+    description: 'Elegant venue and full-service catering for weddings, birthdays, corporate events, and celebrations.',
     images: ['/images/twitter-image.jpg'],
   },
 };
@@ -44,7 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${manrope.className} ${sourceSans.className} antialiased`}
+        className={`${playfair.className} ${sourceSans.className} antialiased`}
       >
         {siteDetails.googleAnalyticsId && <GoogleAnalytics gaId={siteDetails.googleAnalyticsId} />}
         <Header />

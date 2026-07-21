@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --primary: #FED835;
-  --secondary: #304fff;
+  --background: #FDFBF7;
+  --foreground: #1A1A1A;
+  --primary: #C9A96E;
+  --secondary: #1B3A2D;
 
-  --primary-accent: #e5c230;
-  --foreground-accent: #454545;
-  --hero-background: #F3F3F5;
+  --primary-accent: #B8943D;
+  --foreground-accent: #5A5A5A;
+  --hero-background: #F5F0E8;
 }
 
 html {
@@ -40,15 +40,11 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
 #logos svg {
   @apply w-fit h-10 sm:h-12;
-}
-
-.benefit-section:last-of-type > div {
-  @apply mb-10;
 }
