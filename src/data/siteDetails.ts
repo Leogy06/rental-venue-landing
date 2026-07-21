@@ -10,3 +10,4 @@ export const siteDetails = {
     siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`,
     googleAnalyticsId: '',
 }
+
