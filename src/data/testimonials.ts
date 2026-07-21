@@ -1,23 +1,22 @@
 import { ITestimonial } from "@/types";
-import { siteDetails } from "./siteDetails";
 
 export const testimonials: ITestimonial[] = [
     {
-        name: 'John Smith',
-        role: 'CEO at Company',
-        message: `${siteDetails.siteName}'s AI-driven insights have transformed how we approach financial planning for our clients. It's an invaluable resource in the modern financial landscape.`,
+        name: 'Sarah & Michael Thompson',
+        role: 'Wedding — June 2025',
+        message: 'Our wedding at Grand Hall was absolutely perfect. Every detail was taken care of with such care and precision. The ballroom looked like something out of a fairy tale, and our guests are still raving about the food!',
         avatar: '/images/testimonial-1.webp',
     },
     {
-        name: 'Jane Doe',
-        role: 'CTO at Startup',
-        message: `As a CTO, I'm impressed by ${siteDetails.siteName}'s robust security measures and seamless integrations. It's rare to find an app that balances user-friendliness with such advanced technology.`,
+        name: 'David Chen',
+        role: 'Corporate Client',
+        message: 'We have hosted our annual company gala at Grand Hall Events for three years running. The professionalism of their team and the quality of the venue is unmatched. They make planning effortless.',
         avatar: '/images/testimonial-2.webp',
     },
     {
-        name: 'Emily Johnson',
-        role: 'Product Manager',
-        message: `${siteDetails.siteName} is revolutionizing personal finance management. Its intuitive design and powerful features make it an indispensable tool for anyone serious about financial growth.`,
+        name: 'Lisa Martinez',
+        role: 'Event Planner',
+        message: 'As an event planner, I\'ve worked with dozens of venues. Grand Hall Events stands out for their flexibility, attention to detail, and genuine passion for making every event extraordinary.',
         avatar: '/images/testimonial-3.webp',
     },
 ];

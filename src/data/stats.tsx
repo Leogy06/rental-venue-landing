@@ -1,22 +1,21 @@
-import { BsBarChartFill, BsFillStarFill } from "react-icons/bs";
-import { PiGlobeFill } from "react-icons/pi";
+import { FaCalendarCheck, FaHeart, FaAward } from "react-icons/fa";
 
-import { IStats } from "@/types";
+import { IStats } from "@/types"
 
 export const stats: IStats[] = [
     {
-        title: "20M+",
-        icon: <BsBarChartFill size={34} className="text-blue-500" />,
-        description: "Transactions processed securely every day, providing real-time insights."
+        title: "500+ Events Hosted",
+        icon: <FaCalendarCheck className="text-primary" />,
+        description: "From intimate gatherings to grand celebrations, we bring dreams to life."
     },
     {
-        title: "5.0",
-        icon: <BsFillStarFill size={34} className="text-yellow-500" />,
-        description: "Star rating, consistently maintained across app stores."
+        title: "10,000+ Happy Guests",
+        icon: <FaHeart className="text-primary" />,
+        description: "Memories created that last a lifetime for our clients and their loved ones."
     },
     {
-        title: "200+ ",
-        icon: <PiGlobeFill size={34} className="text-green-600" />,
-        description: "Financial Institutions, seamlessly integrated, so you can manage all accounts."
-    }
+        title: "15+ Years Experience",
+        icon: <FaAward className="text-primary" />,
+        description: "Trusted by families and businesses to deliver exceptional events."
+    },
 ];
