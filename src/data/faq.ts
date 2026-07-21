@@ -1,25 +1,28 @@
 import { IFAQ } from "@/types";
-import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
     {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
+        question: 'How far in advance should I book?',
+        answer: 'We recommend booking 6-12 months in advance for weddings and large events, and 3-6 months for smaller celebrations. Popular dates fill up quickly, so the earlier you reach out, the better your chances of securing your preferred date.',
     },
     {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
+        question: 'Do you require a deposit?',
+        answer: 'Yes, we require a 30% deposit to reserve your date, with the remaining balance due two weeks before your event. We also offer flexible payment plans for larger events.',
     },
     {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
+        question: 'Can I bring my own caterer?',
+        answer: 'We offer in-house catering as part of our packages for the best experience and pricing. However, we do allow external caterers for select packages with prior arrangement.',
     },
     {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
+        question: 'Do you accommodate dietary restrictions?',
+        answer: 'Absolutely! Our culinary team is experienced in preparing vegetarian, vegan, gluten-free, and allergen-conscious menus. Simply let us know your requirements during the planning process.',
     },
     {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
-    }
+        question: 'What is your cancellation policy?',
+        answer: 'We offer a full refund for cancellations made 90 or more days before the event, and a partial refund for cancellations 60-89 days out. We also offer date rescheduling options.',
+    },
+    {
+        question: 'Can I customize my package?',
+        answer: 'Yes! Every package can be tailored to your specific needs. During your consultation, we will work with you to add, remove, or modify any elements to create your perfect event.',
+    },
 ];
