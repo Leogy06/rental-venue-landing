@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/og-image.jpg",
+        url: `${siteDetails.siteLogo}`,
         width: 1200,
         height: 675,
         alt: "Yolach's Venue",

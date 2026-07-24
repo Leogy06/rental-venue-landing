@@ -9,6 +9,7 @@ import { FaGlassCheers } from "react-icons/fa";
 import Container from "./Container";
 import { siteDetails } from "@/data/siteDetails";
 import { menuItems } from "@/data/menuItems";
+import Image from "next/image";
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,12 +19,19 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="bg-transparent fixed top-0 left-0 right-0 md:absolute z-50 mx-auto w-full">
+    <header className="bg-white fixed top-0 left-0 right-0 z-50 mx-auto w-full">
       <Container className="!px-0">
         <nav className="shadow-md md:shadow-none bg-white md:bg-transparent mx-auto flex justify-between items-center py-2 px-5 md:py-10">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <FaGlassCheers className="text-foreground min-w-fit w-7 h-7" />
+            <Image
+              src="/images/logo.jpg"
+              alt="Logo"
+              width={40}
+              height={40}
+              className="w-10 h-12"
+              priority
+            />
             <span className="manrope text-xl font-semibold text-foreground cursor-pointer">
               {siteDetails.siteName}
             </span>

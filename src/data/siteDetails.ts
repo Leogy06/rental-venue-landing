@@ -8,6 +8,6 @@ export const siteDetails = {
   },
   language: "en-us",
   locale: "en-US",
-  siteLogo: `${process.env.BASE_PATH || ""}/images/logo.png`,
+  siteLogo: `${process.env.BASE_PATH || ""}/images/logo.jpg`,
   googleAnalyticsId: "",
 };
