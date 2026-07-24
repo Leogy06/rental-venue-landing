@@ -5,7 +5,7 @@ export const testimonials: ITestimonial[] = [
     name: "Sarah & Michael Thompson",
     role: "Wedding — June 2025",
     message:
-      "Our wedding at Yollach's Venue was absolutely perfect. Every detail was taken care of with such care and precision. The ballroom looked like something out of a fairy tale, and our guests are still raving about the food!",
+      "Our wedding at Yolach's Venue was absolutely perfect. Every detail was taken care of with such care and precision. The ballroom looked like something out of a fairy tale, and our guests are still raving about the food!",
     avatar: "/images/testimonial-1.webp",
   },
   {

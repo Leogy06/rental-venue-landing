@@ -5,7 +5,7 @@ export const bookingDetails = {
   address:
     "Hangar, Lajo Subdivision Rd, General Santos City (Dadiangas), South Cotabato",
   phone: "(555) 123-4567",
-  email: "info@yollachsvenue.com.com",
+  email: "info.yolachsvenue.com",
   hours: [
     "Monday - Friday: 9:00 AM - 6:00 PM",
     "Saturday: 10:00 AM - 4:00 PM",

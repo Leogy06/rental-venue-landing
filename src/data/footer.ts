@@ -39,7 +39,7 @@ export const footerDetails: {
       url: "#contact",
     },
   ],
-  email: "info@yollachsvenue.com.com",
+  email: "info.yolachsvenue.com",
   telephone: "(555) 123-4567",
   socials: {
     facebook: "https://facebook.com",

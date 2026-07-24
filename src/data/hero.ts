@@ -9,7 +9,7 @@ export const heroDetails = {
     // subheading: "A restored 1920s ballroom in the heart of downtown — ...",
     primaryCta: { label: "Book a Tour", href: "#booking" },
     secondaryCta: { label: "View Packages", href: "#packages" },
-    contact: { phone: "(555) 210-4488", email: "hello@grandhallevents.com" },
+    contact: { phone: "(555) 210-4488", email: "info.yolachsvenue@gmail.com" },
     mainImageSrc: "/images/hero-main.jpg",
     secondaryImageSrc: "/images/hero-venue.jpg",
     nextAvailable: [

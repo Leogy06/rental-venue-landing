@@ -1,5 +1,5 @@
 export const siteDetails = {
-  siteName: "Yolach&apos;s Venue",
+  siteName: "Yolach's Venue",
   siteUrl: "https://grandhallevents.com/",
   metadata: {
     title: "Yolach's Venue — Where Your Dream Event Comes to Life",
