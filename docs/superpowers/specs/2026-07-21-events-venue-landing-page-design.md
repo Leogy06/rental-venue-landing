@@ -170,7 +170,7 @@ Transform the existing FinWise fintech landing page template into an elegant, in
   4. "Do you accommodate dietary restrictions?" — Yes, vegetarian, vegan, gluten-free, allergen-conscious menus
   5. "What's your cancellation policy?" — Full refund 90+ days out, partial refund 60-89 days
   6. "Can I customize my package?" — Yes, every package can be tailored to your needs
-- Update email to `info@grandhallevents.com`
+- Update email to `info@yollachsvenue.com.com`
 
 ### Booking/Contact (replaces CTA)
 
@@ -193,7 +193,7 @@ Transform the existing FinWise fintech landing page template into an elegant, in
 - **Right column — Contact Details:**
   - Address: 123 Celebration Avenue, Suite 100, Springfield, IL 62701
   - Phone: (555) 123-4567
-  - Email: info@grandhallevents.com
+  - Email: info@yollachsvenue.com.com
   - Hours: Mon-Fri 9am-6pm, Sat 10am-4pm, Sun by appointment
   - Small placeholder map image
 

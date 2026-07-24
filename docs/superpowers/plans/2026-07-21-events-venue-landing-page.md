@@ -1397,14 +1397,14 @@ export const faqs: IFAQ[] = [
 
 - [ ] **Step 2: Update FAQ component email**
 
-In `src/components/FAQ.tsx`, update the hardcoded email from `help@finwise.com` to `info@grandhallevents.com`:
+In `src/components/FAQ.tsx`, update the hardcoded email from `help@finwise.com` to `info@yollachsvenue.com.com`:
 
 ```tsx
 <a
-  href="mailto:info@grandhallevents.com"
+  href="mailto:info@yollachsvenue.com.com"
   className="mt-3 block text-xl lg:text-4xl text-secondary font-semibold hover:underline text-center lg:text-left"
 >
-  info@grandhallevents.com
+  info@yollachsvenue.com.com
 </a>
 ```
 
@@ -1446,7 +1446,7 @@ export const bookingDetails = {
     "Fill out the form below and our events team will get back to you within 24 hours.",
   address: "123 Celebration Avenue, Suite 100, Springfield, IL 62701",
   phone: "(555) 123-4567",
-  email: "info@grandhallevents.com",
+  email: "info@yollachsvenue.com.com",
   hours: [
     "Monday - Friday: 9:00 AM - 6:00 PM",
     "Saturday: 10:00 AM - 4:00 PM",
@@ -1791,7 +1791,7 @@ export const footerDetails: {
       url: "#contact",
     },
   ],
-  email: "info@grandhallevents.com",
+  email: "info@yollachsvenue.com.com",
   telephone: "(555) 123-4567",
   socials: {
     facebook: "https://facebook.com",
