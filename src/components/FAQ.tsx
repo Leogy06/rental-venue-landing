@@ -23,7 +23,7 @@ const FAQ: React.FC = () => {
                 <div className="w-full lg:max-w-2xl mx-auto border-b">
                     {faqs.map((faq, index) => (
                         <div key={index} className="mb-7">
-                            <Disclosure>
+                            <Disclosure as="div">
                                 {({ open }) => (
                                     <>
                                         <DisclosureButton className="flex items-center justify-between w-full px-4 pt-7 text-lg text-left border-t">
