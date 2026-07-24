@@ -1,38 +1,41 @@
 import type { Metadata } from "next";
-import { GoogleAnalytics } from '@next/third-parties/google';
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Playfair_Display, Source_Sans_3 } from "next/font/google";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { siteDetails } from '@/data/siteDetails';
+import { siteDetails } from "@/data/siteDetails";
 
 import "./globals.css";
 
-const playfair = Playfair_Display({ subsets: ['latin'] });
-const sourceSans = Source_Sans_3({ subsets: ['latin'] });
+const playfair = Playfair_Display({ subsets: ["latin"] });
+const sourceSans = Source_Sans_3({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Grand Hall Events — Where Your Dream Event Comes to Life',
-  description: 'Elegant venue and full-service catering for weddings, birthdays, corporate events, and celebrations. Create unforgettable memories at Grand Hall Events.',
+  title: "Yolach's Venue — Where Your Dream Event Comes to Life",
+  description:
+    "Elegant venue and full-service catering for weddings, birthdays, corporate events, and celebrations. Create unforgettable memories at Yolach's Venue.",
   openGraph: {
-    title: 'Grand Hall Events — Where Your Dream Event Comes to Life',
-    description: 'Elegant venue and full-service catering for weddings, birthdays, corporate events, and celebrations.',
+    title: "Yolach's Venue — Where Your Dream Event Comes to Life",
+    description:
+      "Elegant venue and full-service catering for weddings, birthdays, corporate events, and celebrations.",
     url: siteDetails.siteUrl,
-    type: 'website',
+    type: "website",
     images: [
       {
-        url: '/images/og-image.jpg',
+        url: "/images/og-image.jpg",
         width: 1200,
         height: 675,
-        alt: 'Grand Hall Events',
+        alt: "Yolach's Venue",
       },
     ],
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'Grand Hall Events — Where Your Dream Event Comes to Life',
-    description: 'Elegant venue and full-service catering for weddings, birthdays, corporate events, and celebrations.',
-    images: ['/images/twitter-image.jpg'],
+    card: "summary_large_image",
+    title: "Yolach's Venue — Where Your Dream Event Comes to Life",
+    description:
+      "Elegant venue and full-service catering for weddings, birthdays, corporate events, and celebrations.",
+    images: ["/images/twitter-image.jpg"],
   },
 };
 
@@ -46,11 +49,11 @@ export default function RootLayout({
       <body
         className={`${playfair.className} ${sourceSans.className} antialiased`}
       >
-        {siteDetails.googleAnalyticsId && <GoogleAnalytics gaId={siteDetails.googleAnalyticsId} />}
+        {siteDetails.googleAnalyticsId && (
+          <GoogleAnalytics gaId={siteDetails.googleAnalyticsId} />
+        )}
         <Header />
-        <main>
-          {children}
-        </main>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>

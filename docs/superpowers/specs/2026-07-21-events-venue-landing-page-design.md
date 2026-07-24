@@ -4,7 +4,7 @@
 
 Transform the existing FinWise fintech landing page template into an elegant, inviting landing page for an events venue and catering business. The business hosts weddings, birthdays, corporate events, and other celebrations, offering full-service event solutions.
 
-**Business Name:** "Grand Hall Events" (placeholder)
+**Business Name:** "Yolach&apos;s Venue" (placeholder)
 **Visual Mood:** Elegant & luxurious — warm golds, deep forest greens, serif typography
 **Approach:** Content swap + component adaptation (reuse existing architecture, replace content)
 
@@ -31,15 +31,15 @@ Transform the existing FinWise fintech landing page template into an elegant, in
 
 ### Color Palette
 
-| Token | Value | Usage |
-|-------|-------|-------|
-| `--primary` | `#C9A96E` | Warm gold — buttons, accents, highlights |
-| `--primary-accent` | `#B8943D` | Deeper gold — hover states |
-| `--secondary` | `#1B3A2D` | Deep forest green — headings, strong elements |
-| `--foreground` | `#1A1A1A` | Near-black — body text |
-| `--foreground-accent` | `#5A5A5A` | Warm gray — secondary text |
-| `--background` | `#FDFBF7` | Warm white — page background |
-| `--hero-background` | `#F5F0E8` | Cream — hero/section backgrounds |
+| Token                 | Value     | Usage                                         |
+| --------------------- | --------- | --------------------------------------------- |
+| `--primary`           | `#C9A96E` | Warm gold — buttons, accents, highlights      |
+| `--primary-accent`    | `#B8943D` | Deeper gold — hover states                    |
+| `--secondary`         | `#1B3A2D` | Deep forest green — headings, strong elements |
+| `--foreground`        | `#1A1A1A` | Near-black — body text                        |
+| `--foreground-accent` | `#5A5A5A` | Warm gray — secondary text                    |
+| `--background`        | `#FDFBF7` | Warm white — page background                  |
+| `--hero-background`   | `#F5F0E8` | Cream — hero/section backgrounds              |
 
 ### Typography
 
@@ -54,8 +54,9 @@ Transform the existing FinWise fintech landing page template into an elegant, in
 ### Header (`src/components/Header.tsx`)
 
 **Changes:**
+
 - Replace `FaFingerprint` icon with `FaGlassCheers` (celebration/venue theme)
-- Update `siteDetails.siteName` to "Grand Hall Events"
+- Update `siteDetails.siteName` to "Yolach&apos;s Venue"
 - Nav items (from `menuItems.ts`): Home (`#hero`), Services (`#services`), Venues (`#venues`), Gallery (`#gallery`), About (`#about`), Testimonials (`#testimonials`), FAQ (`#faq`), Contact (`#contact`)
 - CTA button text: "Book Now" → links to `#booking`
 - Keep mobile hamburger behavior with HeadlessUI Transition
@@ -63,6 +64,7 @@ Transform the existing FinWise fintech landing page template into an elegant, in
 ### Hero (`src/components/Hero.tsx`)
 
 **Changes:**
+
 - Remove `AppStoreButton` and `PlayStoreButton` imports entirely
 - Replace with two styled buttons: "Book a Tour" (primary gold) and "View Packages" (outline/secondary)
 - Headline: "Where Your Dream Event Comes to Life"
@@ -76,6 +78,7 @@ Transform the existing FinWise fintech landing page template into an elegant, in
 **Rename files:** `Benefits.tsx` → `Services.tsx`, `BenefitSection.tsx` → `ServiceSection.tsx`, `BenefitBullet.tsx` → `ServiceFeature.tsx`
 
 **Changes:**
+
 - Update `IBenefit` type to `IService` (or keep type name, update data)
 - Replace financial features with 6 venue services:
   1. **Venue Rental** — `FaBuilding` icon — Elegant spaces for every occasion
@@ -93,6 +96,7 @@ Transform the existing FinWise fintech landing page template into an elegant, in
 **New data file:** `src/data/venues.ts`
 
 **Content — 3 venue spaces:**
+
 1. **The Grand Ballroom** — Up to 300 guests, crystal chandeliers, marble floors, built-in stage
 2. **Garden Terrace** — Up to 150 guests, outdoor covered space, string lights, garden views
 3. **The Intimate Lounge** — Up to 50 guests, cozy fireplace, perfect for rehearsal dinners
@@ -111,6 +115,7 @@ Transform the existing FinWise fintech landing page template into an elegant, in
 ### Pricing → Packages (`src/components/Pricing/`)
 
 **Changes:**
+
 - Rename to `Packages/` folder
 - Update `IPricing` type fields or keep as-is (name, price, features works)
 - 3 tiers:
@@ -127,6 +132,7 @@ Transform the existing FinWise fintech landing page template into an elegant, in
 
 **Layout:** Split layout — text on left, image on right
 **Content:**
+
 - Headline: "Crafting Unforgettable Moments Since 2010"
 - Story paragraph about the business's passion for creating perfect events
 - Mission statement
@@ -136,6 +142,7 @@ Transform the existing FinWise fintech landing page template into an elegant, in
 ### Testimonials (`src/components/Testimonials.tsx`)
 
 **Changes:**
+
 - Keep the same 3-column layout with avatars
 - Update content to venue-related reviews:
   1. **Sarah & Michael** — "Our wedding at Grand Hall was absolutely perfect..." (Bride & Groom)
@@ -146,6 +153,7 @@ Transform the existing FinWise fintech landing page template into an elegant, in
 ### Stats (`src/components/Stats.tsx`)
 
 **Changes:**
+
 - Update to venue-relevant stats:
   1. **500+ Events Hosted** — `FaCalendarCheck` icon — "From intimate gatherings to grand celebrations"
   2. **10,000+ Happy Guests** — `FaHeart` icon — "Memories created that last a lifetime"
@@ -154,6 +162,7 @@ Transform the existing FinWise fintech landing page template into an elegant, in
 ### FAQ (`src/components/FAQ.tsx`)
 
 **Changes:**
+
 - Update questions to venue-related:
   1. "How far in advance should I book?" — Recommend 6-12 months for weddings, 3-6 for other events
   2. "Do you require a deposit?" — 30% deposit to reserve, balance due 2 weeks before event
@@ -169,6 +178,7 @@ Transform the existing FinWise fintech landing page template into an elegant, in
 **New data file:** `src/data/booking.ts`
 
 **Layout:** Two-column section
+
 - **Left column — Inquiry Form:**
   - Full Name (text input)
   - Email (email input)
@@ -190,41 +200,42 @@ Transform the existing FinWise fintech landing page template into an elegant, in
 ### Footer (`src/components/Footer.tsx`)
 
 **Changes:**
+
 - Update quick links to match new nav: Services, Venues, Gallery, About, Testimonials, FAQ, Contact
 - Update subheading: "Creating unforgettable events with elegance, warmth, and attention to detail."
 - Update contact info to match booking section
 - Update social media links (keep same platforms)
-- Remove Nexi Launch / Youthmind credits, add: "© 2026 Grand Hall Events. All rights reserved."
+- Remove Nexi Launch / Youthmind credits, add: "© 2026 Yolach&apos;s Venue. All rights reserved."
 
 ---
 
 ## Data Files to Modify
 
-| File | Action |
-|------|--------|
-| `src/data/siteDetails.ts` | Update name, URL, metadata |
-| `src/data/hero.ts` | New headline, subheading, image |
-| `src/data/menuItems.ts` | New nav items |
-| `src/data/benefits.tsx` → `services.ts` | New service content |
-| `src/data/faq.ts` | New venue-related FAQs |
-| `src/data/footer.ts` | New links, contact, subheading |
-| `src/data/cta.ts` → remove or replace | Replaced by booking section |
-| `src/data/testimonials.ts` | New venue client reviews |
-| `src/data/stats.tsx` | New venue stats |
-| `src/data/pricing.ts` → `packages.ts` | New package tiers |
+| File                                    | Action                          |
+| --------------------------------------- | ------------------------------- |
+| `src/data/siteDetails.ts`               | Update name, URL, metadata      |
+| `src/data/hero.ts`                      | New headline, subheading, image |
+| `src/data/menuItems.ts`                 | New nav items                   |
+| `src/data/benefits.tsx` → `services.ts` | New service content             |
+| `src/data/faq.ts`                       | New venue-related FAQs          |
+| `src/data/footer.ts`                    | New links, contact, subheading  |
+| `src/data/cta.ts` → remove or replace   | Replaced by booking section     |
+| `src/data/testimonials.ts`              | New venue client reviews        |
+| `src/data/stats.tsx`                    | New venue stats                 |
+| `src/data/pricing.ts` → `packages.ts`   | New package tiers               |
 
 ## New Files to Create
 
-| File | Purpose |
-|------|---------|
-| `src/data/venues.ts` | Venue space data |
-| `src/data/gallery.ts` | Gallery image data |
-| `src/data/about.ts` | About section content |
-| `src/data/booking.ts` | Booking section content |
-| `src/components/Venues.tsx` | Venues section component |
-| `src/components/Gallery.tsx` | Gallery section component |
-| `src/components/About.tsx` | About section component |
-| `src/components/BookingContact.tsx` | Booking form + contact |
+| File                                | Purpose                   |
+| ----------------------------------- | ------------------------- |
+| `src/data/venues.ts`                | Venue space data          |
+| `src/data/gallery.ts`               | Gallery image data        |
+| `src/data/about.ts`                 | About section content     |
+| `src/data/booking.ts`               | Booking section content   |
+| `src/components/Venues.tsx`         | Venues section component  |
+| `src/components/Gallery.tsx`        | Gallery section component |
+| `src/components/About.tsx`          | About section component   |
+| `src/components/BookingContact.tsx` | Booking form + contact    |
 
 ## Types to Update (`src/types.ts`)
 
@@ -235,11 +246,11 @@ Transform the existing FinWise fintech landing page template into an elegant, in
 
 ## Files to Delete
 
-| File | Reason |
-|------|--------|
-| `src/components/AppStoreButton.tsx` | Not needed for venue site |
+| File                                 | Reason                    |
+| ------------------------------------ | ------------------------- |
+| `src/components/AppStoreButton.tsx`  | Not needed for venue site |
 | `src/components/PlayStoreButton.tsx` | Not needed for venue site |
-| `src/components/Logos.tsx` | Replaced by Gallery |
+| `src/components/Logos.tsx`           | Replaced by Gallery       |
 
 ## CSS Changes (`src/app/globals.css`)
 
@@ -275,6 +286,7 @@ Transform the existing FinWise fintech landing page template into an elegant, in
 ## Placeholder Images
 
 All images will use placeholder paths in `/public/images/`:
+
 - `hero-venue.webp` — Hero background
 - `service-1.webp` through `service-6.webp` — Service section images
 - `venue-ballroom.webp`, `venue-terrace.webp`, `venue-lounge.webp` — Venue cards
