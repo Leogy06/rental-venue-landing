@@ -40,7 +40,7 @@ export const footerDetails: {
     },
   ],
   email: "villachristieresort@gmail.com",
-  telephone: "(555) 123-4567",
+  telephone: "0963 310 4130",
   socials: {
     facebook: "https://facebook.com",
     instagram: "https://www.instagram.com",

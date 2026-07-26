@@ -4,7 +4,7 @@ export const bookingDetails = {
     "Fill out the form below and our events team will get back to you within 24 hours.",
   address:
     "Hangar, Lajo Subdivision Rd, General Santos City (Dadiangas), South Cotabato",
-  phone: "(555) 123-4567",
+  phone: "0963 310 4130",
   email: "villachristieresort@gmail.com",
   hours: [
     "Monday - Friday: 9:00 AM - 6:00 PM",

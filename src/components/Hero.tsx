@@ -4,27 +4,6 @@ import Link from "next/link";
 
 import { heroDetails } from "@/data/hero";
 
-/**
- * Expected shape of `heroDetails` (adjust /data/hero.ts to match):
- *
- * {
- *   eyebrow: "EST. 2014 · CAPACITY 400",
- *   headingLine1: "Your Story,",
- *   headingLine2: "Staged Grand",
- *   subheading: "A restored 1920s ballroom in the heart of downtown — ...",
- *   primaryCta: { label: "Book a Tour", href: "#booking" },
- *   secondaryCta: { label: "View Packages", href: "#packages" },
- *   contact: { phone: "(555) 210-4488", email: "hello@grandhallevents.com" },
- *   mainImageSrc: "/images/hero-main.jpg",
- *   secondaryImageSrc: "/images/hero-detail.jpg",
- *   nextAvailable: [
- *     { day: "Sat", date: "Oct 18" },
- *     { day: "Sat", date: "Nov 08" },
- *     { day: "Sat", date: "Nov 22" },
- *   ],
- * }
- */
-
 const Hero: React.FC = () => {
   return (
     <section id="hero" className="relative bg-[#F6F1E7] mt-14">

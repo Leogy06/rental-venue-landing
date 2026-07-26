@@ -236,7 +236,7 @@ const BookingContact: React.FC = () => {
                 </ul>
               </div>
             </div>
-            <div className="mt-6 h-40 bg-gray-200 rounded-lg flex items-center justify-center text-foreground-accent text-sm">
+            <div className="mt-6 h-56 md:h-64 rounded-lg overflow-hidden">
               <MapDisplay mapSrc={bookingDetails.mapSrc} />
             </div>
           </div>
