@@ -27,7 +27,7 @@ import { heroDetails } from "@/data/hero";
 
 const Hero: React.FC = () => {
   return (
-    <section id="hero" className="relative bg-[#F6F1E7]">
+    <section id="hero" className="relative bg-[#F6F1E7] mt-14">
       <div className="grid md:grid-cols-[minmax(0,42%)_1fr] min-h-screen">
         {/* LEFT — INK PANEL */}
         <div className="relative flex flex-col justify-center px-8 py-20 md:px-14 bg-[#15130F] overflow-hidden">

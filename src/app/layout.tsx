@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Playfair_Display, Source_Sans_3 } from "next/font/google";
-
+import { scriptFont, elegantSerif } from "@/lib/fonts";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { siteDetails } from "@/data/siteDetails";
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
         url: `${siteDetails.siteLogo}`,
         width: 1200,
         height: 675,
-        alt: "Yolach's Venue",
+        alt: "Villa Cristie Resort",
       },
     ],
   },
@@ -45,7 +45,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html
+      lang="en"
+      className={`${scriptFont.variable} ${elegantSerif.variable}`}
+    >
       <body
         className={`${playfair.className} ${sourceSans.className} antialiased`}
       >

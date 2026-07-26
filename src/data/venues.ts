@@ -9,7 +9,7 @@ export const venues: IVenue[] = [
       "Crystal chandeliers and marble floors",
       "Built-in stage for entertainment",
       "Full bar and catering kitchen",
-      "ADA accessible",
+      "Bilang 344 (BP 344)",
     ],
   },
   {

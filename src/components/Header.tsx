@@ -24,16 +24,29 @@ const Header: React.FC = () => {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src="/images/logo.jpg"
+              src="/images/logo_v4.jpg"
               alt="Logo"
-              width={40}
-              height={40}
+              width={48}
+              height={48}
               className="w-10 h-12"
               priority
             />
-            <span className="manrope text-xl font-semibold text-foreground cursor-pointer">
-              {siteDetails.siteName}
-            </span>
+            <div className="flex flex-col leading-tight">
+              <span
+                className="text-xl md:text-2xl text-foreground cursor-pointer"
+                style={{ fontFamily: "var(--font-script)" }}
+              >
+                {siteDetails.siteName}
+              </span>
+              {siteDetails.subName && (
+                <span
+                  className="text-[11px] tracking-[0.25em] uppercase text-red font-medium cursor-pointer -mt-1"
+                  style={{ fontFamily: "var(--font-elegant)" }}
+                >
+                  {siteDetails.subName}
+                </span>
+              )}
+            </div>
           </Link>
 
           {/* Desktop Menu */}
