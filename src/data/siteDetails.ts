@@ -1,9 +1,9 @@
 export const siteDetails = {
-  siteName: "Villa Cristie Resort",
+  siteName: "Villa Christie Resort",
   subName: "By Shobe Cheng",
-  siteUrl: "https://grandhallevents.com/",
+  siteUrl: "https://villachristieresort.com/",
   metadata: {
-    title: "Villa Cristie Resort — Where Your Dream Event Comes to Life",
+    title: "Villa Christie Resort — Where Your Dream Event Comes to Life",
     description:
       "Elegant venue and full-service catering for weddings, birthdays, corporate events, and celebrations.",
   },

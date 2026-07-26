@@ -24,10 +24,10 @@ const FAQ: React.FC = () => {
             Ask us anything!
           </p>
           <a
-            href="mailto:info.yolachsvenue.com"
+            href="mailto:villachristieresort@gmail.com"
             className="mt-3 block text-xl lg:text-4xl text-secondary font-semibold hover:underline text-center lg:text-left"
           >
-            info.yolachsvenue.com
+            villachristieresort@gmail.com
           </a>
         </div>
 

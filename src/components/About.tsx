@@ -23,7 +23,7 @@ const About: React.FC = () => {
         <div className="lg:w-1/2 relative h-80 lg:h-96 w-full rounded-2xl overflow-hidden">
           <Image
             src={aboutDetails.imageSrc}
-            alt="Villa Cristie Resort"
+            alt="Villa Christie Resort"
             fill
             className="object-cover"
             unoptimized

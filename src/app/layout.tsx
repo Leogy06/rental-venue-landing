@@ -12,11 +12,11 @@ const playfair = Playfair_Display({ subsets: ["latin"] });
 const sourceSans = Source_Sans_3({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Yolach's Venue — Where Your Dream Event Comes to Life",
+  title: "Villa Christie Resort — Where Your Dream Event Comes to Life",
   description:
-    "Elegant venue and full-service catering for weddings, birthdays, corporate events, and celebrations. Create unforgettable memories at Yolach's Venue.",
+    "Elegant venue and full-service catering for weddings, birthdays, corporate events, and celebrations. Create unforgettable memories at Villa Christie Resort.",
   openGraph: {
-    title: "Yolach's Venue — Where Your Dream Event Comes to Life",
+    title: "Villa Christie Resort — Where Your Dream Event Comes to Life",
     description:
       "Elegant venue and full-service catering for weddings, birthdays, corporate events, and celebrations.",
     url: siteDetails.siteUrl,
@@ -26,13 +26,13 @@ export const metadata: Metadata = {
         url: `${siteDetails.siteLogo}`,
         width: 1200,
         height: 675,
-        alt: "Villa Cristie Resort",
+        alt: "Villa Christie Resort",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Yolach's Venue — Where Your Dream Event Comes to Life",
+    title: "Villa Christie Resort — Where Your Dream Event Comes to Life",
     description:
       "Elegant venue and full-service catering for weddings, birthdays, corporate events, and celebrations.",
     images: ["/images/twitter-image.jpg"],

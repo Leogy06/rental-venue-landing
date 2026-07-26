@@ -11,7 +11,7 @@ const MapDisplay = ({mapSrc}:{mapSrc: string}) => {
         allowFullScreen
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
-        title="Yolachs Venue and Catering location"
+        title="Villa Christie Resort location"
         className="absolute inset-0 w-full h-full"
       />
     </div>
