@@ -26,9 +26,9 @@ const Header: React.FC = () => {
             <Image
               src="/images/logo_v4.jpg"
               alt="Logo"
-              width={48}
-              height={48}
-              className="w-10 h-12"
+              width={96}
+              height={96}
+              className="w-9 h-9 md:w-11 md:h-11 object-contain shrink-0"
               priority
             />
             <div className="flex flex-col leading-tight">
